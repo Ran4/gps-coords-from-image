@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "imagesimilarity"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+scikit-learn = "^1.5.2"
+pillow = "^11.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
